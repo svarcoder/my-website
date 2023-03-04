@@ -4,6 +4,7 @@ export default function Document() {
 	return (
 		<Html lang='en'>
 			<Head>
+				<title>SVARCODER</title>
 				<link rel='shortcut icon' href='/favicon.png' />
 			</Head>
 			<body>
