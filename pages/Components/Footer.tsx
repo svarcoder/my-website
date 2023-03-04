@@ -16,7 +16,7 @@ const Footer = () => {
 			<Container>
 				<Row className='align-items-center'>
 					<Contact />
-					<Col size={12} sm={6}>
+					<Col size={12} sm={6} className='contact_footer'>
 						<Navbar.Brand href='#home'>
 							<Image src={logo} alt='Logo' />
 						</Navbar.Brand>

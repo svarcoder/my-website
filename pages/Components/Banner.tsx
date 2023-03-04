@@ -11,7 +11,7 @@ const Banner = () => {
 	const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
 
 	const toRotate: string[] = [
-		"Dapp Developer.",
+		"Frontend Developer.",
 		"Web3 Developer.",
 		"Web Developer.",
 	];
@@ -50,6 +50,19 @@ const Banner = () => {
 		}
 	};
 
+	const handleDownload = async (e: any) => {
+		e.preventDefault();
+		const response = await fetch("/static/Subham's_Resume.pdf");
+		const blob = await response.blob();
+		const url = URL.createObjectURL(blob);
+		const link = document.createElement("a");
+		link.href = url;
+		link.download = "Subham_Char_Resume.pdf";
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	};
+
 	return (
 		<section className='banner' id='home'>
 			<Container>
@@ -67,13 +80,14 @@ const Banner = () => {
 								in Blockchain (Dapp) Web Projects. Knowledgeable about many
 								programming language like JavaScript , React, Blockchain.
 							</p>
-							<button onClick={() => console.log("connect")}>
-								Explore My Projects <ArrowRightCircle size={25} />
+							<button onClick={(e) => handleDownload(e)}>
+								Download Resume
+								<ArrowRightCircle size={25} />
 							</button>
 						</div>
 					</Col>
 					<Col xs={12} md={6} xl={5}>
-						<div>
+						<div className='header_mobile_logo'>
 							<Image src={Header_Img} alt='BannerImage' />
 						</div>
 					</Col>
