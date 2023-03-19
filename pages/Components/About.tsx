@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import Header_Img from "../../public/asset/img/header-img.jpg";
+import Header_Img from "../../public/asset/img/About.jpg";
 import Image from "next/image";
 
 const About = () => {
