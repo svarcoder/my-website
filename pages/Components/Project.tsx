@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import AllInBets from "../../public/asset/img/AllInBets.png";
+import Busta from "../../public/asset/img/Busta.png";
 import projImg3 from "../../public/asset/img/CAMS_CLUB.png";
 import projImg8 from "../../public/asset/img/COVID.png";
 import projImg4 from "../../public/asset/img/CTRS.png";
@@ -16,6 +17,7 @@ import projImg11 from "../../public/asset/img/SB.png";
 import projImg7 from "../../public/asset/img/TESLA.png";
 import projImg12 from "../../public/asset/img/WHATSAPP.png";
 import projImg1 from "../../public/asset/img/WHITELABEL.png";
+import XWife from "../../public/asset/img/XWife.png";
 import colorSharp2 from "../../public/asset/img/color-sharp2.png";
 import ProjectCard from "./ProjectCard";
 
@@ -44,6 +46,17 @@ const Project = () => {
       description: "Dapp",
       imgUrl: Commodo,
       siteLink: "https://pre-prod.commodo.one",
+    },
+    {
+      title: "Pulsechain X-Wife",
+      description:
+        "This project should provide a secure, user-friendly, and competitive platform for users to stake their cryptocurrency assets and earn rewards.",
+      imgUrl: XWife,
+    },
+    {
+      title: "BUSTA Games",
+      description: "This project is a Bitcoin casino",
+      imgUrl: Busta,
     },
     {
       title: "White Label",
