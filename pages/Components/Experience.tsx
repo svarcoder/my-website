@@ -1,9 +1,9 @@
 import { Container, Row } from "react-bootstrap";
-import Intern_Img from "../../public/asset/img/internship.png";
 import Company_Img from "../../public/asset/img/company.png";
+import Intern_Img from "../../public/asset/img/internship.png";
 
-import About from "./About";
 import Image from "next/image";
+import About from "./About";
 
 const Experience = () => {
   return (
@@ -26,8 +26,26 @@ const Experience = () => {
                   </div>
                   <div className="timeline__event__description">
                     <p>
+                      Arcana Network <br />
+                      Sept, 2024 - Present <br />
+                      Bengaluru, Karnataka, India (Remote)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                <div className="timeline__event__icon ">
+                  <Image src={Company_Img} alt="Experience Image" />
+                </div>
+                <div className="timeline__event__date">Full Time</div>
+                <div className="timeline__event__content ">
+                  <div className="timeline__event__title">
+                    Senior Software Developer
+                  </div>
+                  <div className="timeline__event__description">
+                    <p>
                       Comdex <br />
-                      Apr, 2023 - Present <br />
+                      Apr, 2023 - Jun, 2024 <br />
                       Bengaluru, Karnataka, India (Remote)
                     </p>
                   </div>
@@ -69,9 +87,9 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <div className="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+              <div className="timeline__event animated fadeInUp delay-2s timeline__event--type3">
                 <div className="timeline__event__icon">
-                  <Image src={Company_Img} alt="Experience Image" />
+                  <Image src={Intern_Img} alt="Experience Image" />
                 </div>
                 <div className="timeline__event__date">Internship</div>
                 <div className="timeline__event__content">
@@ -104,7 +122,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <div className="timeline__event animated fadeInUp timeline__event--type1">
+              <div className="timeline__event animated fadeInUp timeline__event--type3">
                 <div className="timeline__event__icon">
                   <Image src={Intern_Img} alt="Experience Image" />
                 </div>

@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Header_Img from "../../public/asset/img/header-img.jpg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { ArrowRightCircle } from "react-bootstrap-icons";
+import Header_Img from "../../public/asset/img/Header_Pic.jpg";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState<number>(0);
@@ -12,8 +12,8 @@ const Banner = () => {
 
   const toRotate: string[] = [
     "Frontend Developer.",
+    "Full Stack Developer.",
     "Web3 Developer.",
-    "Web Developer.",
   ];
   const period: number = 2000;
 
@@ -76,9 +76,8 @@ const Banner = () => {
                 </span>
               </h1>
               <p>
-                Front-end Developer, Specialist in Web3 Development, Experience
-                in Blockchain (Dapp) Web Projects. Knowledgeable about many
-                programming language like JavaScript , React, Blockchain.
+                Front-end Developer, Specialist in Frontend, Backend, Experience
+                in Blockchain (Dapp) Web Projects.
               </p>
               <button onClick={(e) => handleDownload(e)}>
                 Download Resume
