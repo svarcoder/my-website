@@ -27,7 +27,7 @@ const Project = () => {
       title: "All in Gaming",
       description: "Crypto Gaming",
       imgUrl: AllInBets,
-      siteLink: "https://testnet.allingaming.xyz",
+      siteLink: "https://app.allingaming.xyz",
     },
     {
       title: "Cswap",

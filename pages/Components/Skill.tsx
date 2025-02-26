@@ -36,8 +36,6 @@ const Skill = () => {
                   >
                     <button className="skill_button type1 ">Wallet</button>
                     <button className="skill_button type1 ">DeFi</button>
-                    <button className="skill_button type1 ">Liquidity</button>
-                    <button className="skill_button type1 ">Swap</button>
                     <button className="skill_button type1 ">Staking</button>
                     <button className="skill_button type1 ">
                       Crypto Gaming
