@@ -1,6 +1,5 @@
-import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
-import Header_Img from "../../public/asset/img/About.jpg";
+import Header_Img from "../../public/asset/img/About.png";
 
 const About = () => {
   return (
@@ -9,7 +8,7 @@ const About = () => {
         <h2>About Me</h2>
         <Row style={{ marginTop: "20px" }}>
           <Col lg={12} md={6} xl={4}>
-            <Image src={Header_Img} alt="About Image" className="about-img" />
+            <img src={Header_Img.src} alt="About Image" className="about-img" />
           </Col>
           <Col md={6} xl={7} className="text-center">
             <p style={{ marginTop: "20px", lineHeight: "1.5rem" }}>

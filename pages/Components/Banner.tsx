@@ -1,8 +1,7 @@
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import Header_Img from "../../public/asset/img/Header_Pic.jpg";
+import Header_Img from "../../public/asset/img/Header_Pic.png";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState<number>(0);
@@ -10,7 +9,10 @@ const Banner = () => {
   const [text, setText] = useState<string>("");
   const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
 
-  const toRotate: string[] = ["Full Stack Developer.", "Blockchain Developer."];
+  const toRotate: string[] = [
+    "Senior Frontend Engineer.",
+    "Blockchain Engineer.",
+  ];
   const period: number = 2000;
 
   useEffect(() => {
@@ -83,7 +85,7 @@ const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className="header_mobile_logo">
-              <Image src={Header_Img} alt="BannerImage" />
+              <img src={Header_Img.src} alt="BannerImage" />
             </div>
           </Col>
         </Row>

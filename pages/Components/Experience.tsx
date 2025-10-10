@@ -22,13 +22,13 @@ const Experience = () => {
                 <div className="timeline__event__date">Full Time</div>
                 <div className="timeline__event__content ">
                   <div className="timeline__event__title">
-                    Senior Software Developer
+                    Frontend Engineer
                   </div>
                   <div className="timeline__event__description">
                     <p>
-                      Arcana Network <br />
+                      Avail Project <br />
                       Sept, 2024 - Present <br />
-                      Bengaluru, Karnataka, India (Remote)
+                      Dubai, UAE (Remote)
                     </p>
                   </div>
                 </div>
@@ -40,13 +40,13 @@ const Experience = () => {
                 <div className="timeline__event__date">Full Time</div>
                 <div className="timeline__event__content ">
                   <div className="timeline__event__title">
-                    Senior Software Developer
+                    Senior UI Developer
                   </div>
                   <div className="timeline__event__description">
                     <p>
                       Comdex <br />
                       Apr, 2023 - Jun, 2024 <br />
-                      Bengaluru, Karnataka, India (Remote)
+                      Dubai, UAE (Remote)
                     </p>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ const Experience = () => {
                   <div className="timeline__event__description">
                     <p>
                       Rapid Innovation <br />
-                      Oct, 2021 - Apr, 2023 <br />
+                      Oct, 2021 - Mar, 2023 <br />
                       Noida, Uttar Pradesh, India (Remote)
                     </p>
                   </div>
@@ -76,7 +76,7 @@ const Experience = () => {
                 <div className="timeline__event__date">Full Time</div>
                 <div className="timeline__event__content ">
                   <div className="timeline__event__title">
-                    Full Stack Developer
+                    Website Developer
                   </div>
                   <div className="timeline__event__description">
                     <p>

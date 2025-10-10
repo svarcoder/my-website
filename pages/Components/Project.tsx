@@ -18,11 +18,41 @@ import projImg7 from "../../public/asset/img/TESLA.png";
 import projImg12 from "../../public/asset/img/WHATSAPP.png";
 import projImg1 from "../../public/asset/img/WHITELABEL.png";
 import XWife from "../../public/asset/img/XWife.png";
+import IntentExplorer from "../../public/asset/img/intent-explorer.png";
+import SDKDemoAPP from "../../public/asset/img/sdk.png";
+import ArcanaWallet from "../../public/asset/img/wallet.png";
+import AvailNexus from "../../public/asset/img/nexus.png";
 import colorSharp2 from "../../public/asset/img/color-sharp2.png";
 import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   const projects = [
+    {
+      title: "Avail Nexus",
+      description: "Avail Nexus SDK Injector",
+      imgUrl: AvailNexus,
+      siteLink:
+        "https://chromewebstore.google.com/detail/avail-nexus-sdk-injector/pckfgdpbgkdehabcapdbhlphaoajdlea?pli=1",
+    },
+    {
+      title: "Arcana Wallet",
+      description: "Crypto Wallet",
+      imgUrl: ArcanaWallet,
+      siteLink:
+        "https://chromewebstore.google.com/detail/arcana-wallet/nieddmedbnibfkfokcionggafcmcgkpi",
+    },
+    {
+      title: "Intent Explorer",
+      description: "Nexus Explorer",
+      imgUrl: IntentExplorer,
+      siteLink: "https://explorer.nexus.availproject.org",
+    },
+    {
+      title: "SDK Demo App",
+      description: "Chain Abstraction SDK",
+      imgUrl: SDKDemoAPP,
+      siteLink: "https://sdk.arcana.network",
+    },
     {
       title: "All in Gaming",
       description: "Crypto Gaming",
